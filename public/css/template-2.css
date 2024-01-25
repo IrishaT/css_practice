@@ -1,0 +1,157 @@
+.page {
+  background-color: #fff;
+  padding: 0 15px;
+}
+
+.page_content {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.header {
+  padding: 24px;
+}
+
+.logo {
+  font-size: 16px;
+}
+
+.divider {
+  margin: 0;
+  height: 1px;
+  background-color: #dee2e6;
+}
+
+.nav {
+  display: block;
+}
+
+.nav_link {
+  color: #343a40;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.nav_link:hover {
+  text-decoration: underline;
+  color: blue;
+}
+
+.nav_vertical > .nav_link {
+  display: inline-block;
+}
+
+.nav_inline > .nav_link:not(:last-child) {
+  margin-right: 24px;
+}
+
+.nav_vertical > .nav_link:not(:last-child) {
+  margin-bottom: 12px;
+}
+
+.header_nav_right {
+  margin-left: auto;
+  width: fit-content;
+}
+
+.page_block {
+  flex-direction: row;
+}
+
+.page_block:not(:last-of-type) {
+  margin-bottom: 80px;
+}
+
+.hero_title {
+  font-size: 56px;
+  color: #fff;
+  font-weight: 500;
+  margin-bottom: 12px;
+}
+
+.hero_text {
+  font-size: 20px;
+  color: #fff;
+  max-width: 585px;
+}
+
+.hero {
+  background-color: #343a40;
+  border-radius: 24px;
+  padding: 80px;
+}
+
+.button {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 20px;
+  display: inline-block;
+  font-size: 16px;
+  max-width: 248px;
+  width: 100%;
+  background: #007bff;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.button:hover {
+  background: #3195ff;
+}
+
+.preview {
+  padding: 24px;
+  border-radius: 24px;
+  border: 1px solid #dee2e6;
+  box-shadow: 0px 4px 12px 0px #0000000d;
+  margin-right: 12px;
+  display: inline-block;
+  flex-direction: row;
+}
+
+.preview > *:not(:last-child) {
+  margin-right: 12px;
+}
+
+.preview_date {
+  color: #dee2e6;
+  margin-bottom: 12px;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.preview_category {
+  font-size: 16px;
+}
+
+.preview_title {
+  color: #343a40;
+  font-size: 28px;
+  font-weight: 500;
+  display: inline-block;
+}
+
+.preview_text {
+  color: #212529;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.footer {
+  padding: 24px 0;
+}
+
+.footer_copyright {
+  font-size: 14px;
+  color: #6c757d;
+
+  display: block;
+  margin-top: 12px;
+}
+
+.footer_title {
+  font-size: 20px;
+  color: #212529;
+
+  display: block;
+  margin-bottom: 12px;
+}
