@@ -49,6 +49,11 @@
   margin-bottom: 12px;
 }
 
+.nav_vertical {
+  display: flex;
+  flex-direction: column;
+}
+
 .header_nav_right {
   margin-left: auto;
   width: fit-content;
